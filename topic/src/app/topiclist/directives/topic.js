@@ -1,7 +1,7 @@
 /**
  * Created by Lucien on 2016/9/15.
  */
-angular.module('app.topiclist.directives.topic',[]).directive('myTopic',function(){
+angular.module('app.topiclist.directives.topic',[]).directive('topic',function(){
     return {
         restrict:'EA',
         template:'<div class="topic">' +
@@ -9,6 +9,6 @@ angular.module('app.topiclist.directives.topic',[]).directive('myTopic',function
         '<span class="topic-title">{{item.title}}</span>' +
         '<span class="topic-content">{{item.content}}</span>' +
         '</div>',
-        scope:{item:"=item"},
+        scope:{item:"=item"}
     }
-})
+});

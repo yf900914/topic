@@ -5,10 +5,10 @@ angular.module('app.routes',['ui.router']).config(function($stateProvider,$httpP
     $httpProvider.defaults.headers.common["X-Requested-With"]='XMLHttpRequest';
     return $stateProvider.state('search',{
         url:'/search',
-        template:'<topiclist></topiclist>',
+        template:'<topic-list></topic-list>',
         controller:'listController'
     }).state('detail',{
         url:'/detail',
-        template:'<topicdetail></topicdetail>'
+        template:'<topic-detail></topic-detail>'
     });
 });
