@@ -1,0 +1,63 @@
+html, body {
+  font-size: 23.4375px; }
+
+a:link {
+  color: #fff; }
+
+a:visited {
+  color: #fff; }
+
+a:hover {
+  color: #fff; }
+
+a:active {
+  color: #fff; }
+
+a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  -moz-background-size: 100% 100%;
+       background-size: 100% 100%;
+  background-repeat: no-repeat; }
+
+.topiclist {
+  background-color: #f3f3f3;
+  margin-bottom: 2.4rem; }
+
+.topic {
+  position: relative;
+  height: 20rem;
+  margin-bottom: 10px; }
+
+.cm-count-con {
+  position: absolute;
+  top: 0.5rem;
+  left: 30rem;
+  border: solid 1px;
+  -moz-border-radius: 1.5rem;
+       border-radius: 1.5rem;
+  padding: 0.1em 0.8rem;
+  height: 2.5rem;
+  width: 5rem;
+  font-size: 2.5rem;
+  text-align: right;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.topic-title-con {
+  height: 25rem;
+  width: 100%; }
+
+.topic-title {
+  position: absolute;
+  margin: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 3rem;
+  text-align: center;
+  word-wrap: break-word;
+  word-break: normal;
+  background: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.75));
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.75)); }

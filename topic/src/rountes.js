@@ -8,7 +8,7 @@ angular.module('app.routes',['ui.router']).config(function($stateProvider,$httpP
         template:'<topic-list></topic-list>',
         controller:'listController'
     }).state('detail',{
-        url:'/detail',
+        url:'/detail/:id',
         template:'<topic-detail></topic-detail>'
     });
 });

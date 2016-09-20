@@ -12,8 +12,6 @@ angular.module('app.topiclist.controller', ['app.topiclist.directives.topiclist'
             }
             data = body.payload.rows;
             console.log(data);
-            //$scope.topiclist="asdff";
-           // console.log($scope.topiclist);
            return $scope.topiclist = data;
         });
 });

@@ -1,0 +1,13 @@
+html,body{
+    font-size: 23.4375px;//预置样式
+}
+$stageWidth:640; //设计的宽度
+@function px2rem($px) {   //默认为640的稿
+    $rem: 40px; /*针对设计稿分辨率的rem的值*/
+    @return ($px/$rem) + rem;
+}
+
+@function px2rem750($px) {
+    $rem: 40px; /*针对设计稿分辨率的rem的值*/
+    @return ($px/$rem)*0.853 + rem;
+}
