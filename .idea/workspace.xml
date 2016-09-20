@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d3c36b9-d769-42ee-90f2-60b63d7335f1" name="默认的" comment="appjs">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topic/src/app/topicdetail/controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topic/src/common/var.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topic/dist/css/index.min.css" afterPath="$PROJECT_DIR$/topic/dist/css/index.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topic/dist/js/index.min.js" afterPath="$PROJECT_DIR$/topic/dist/js/index.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topic/src/app.scss" afterPath="$PROJECT_DIR$/topic/src/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topic/src/app/topiclist/controller.js" afterPath="$PROJECT_DIR$/topic/src/app/topiclist/controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topic/src/app/topiclist/directives/topic.js" afterPath="$PROJECT_DIR$/topic/src/app/topiclist/directives/topic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topic/src/app/topiclist/directives/topic.scss" afterPath="$PROJECT_DIR$/topic/src/app/topiclist/directives/topic.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topic/src/app/topiclist/directives/topiclist.js" afterPath="$PROJECT_DIR$/topic/src/app/topiclist/directives/topiclist.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topic/src/common/netService.js" afterPath="$PROJECT_DIR$/topic/src/common/netService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topic/src/rountes.js" afterPath="$PROJECT_DIR$/topic/src/rountes.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/topic/src/app/topiclist/controller.scss" afterPath="$PROJECT_DIR$/topic/src/app/topiclist/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topic/src/app/topicdetail/controller.js" afterPath="$PROJECT_DIR$/topic/src/app/topicdetail/controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topic/src/app/topicdetail/directives/topicdetail.js" afterPath="$PROJECT_DIR$/topic/src/app/topicdetail/directives/topicdetail.js" />
     </list>
     <ignored path="yangfang.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controller.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/topic/src/app/topicdetail/controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            <state relative-caret-position="240">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -64,16 +53,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="20">
               <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/topic/src/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -141,8 +120,18 @@
       <file leaf-file-name="topicdetail.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/topic/src/app/topicdetail/directives/topicdetail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="54" />
+            <state relative-caret-position="80">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="topiclist.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/topic/src/app/topiclist/directives/topiclist.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -185,7 +174,6 @@
         <option value="$PROJECT_DIR$/topic/src/app/topicdetail/directives/topicdetail.scss" />
         <option value="$PROJECT_DIR$/topic/src/common/factory.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/topic/src/app/topicdetail/directives/topicdetail.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/topic/src/app.js" />
         <option value="$PROJECT_DIR$/topic/dist/index.html" />
@@ -200,6 +188,7 @@
         <option value="$PROJECT_DIR$/topic/src/common/netService.js" />
         <option value="$PROJECT_DIR$/topic/src/app/topiclist/directives/topic.js" />
         <option value="$PROJECT_DIR$/topic/src/app/topicdetail/controller.js" />
+        <option value="$PROJECT_DIR$/topic/src/app/topicdetail/directives/topicdetail.js" />
       </list>
     </option>
   </component>
@@ -597,7 +586,7 @@
       <workItem from="1474182828047" duration="1172000" />
       <workItem from="1474192367628" duration="23790000" />
       <workItem from="1474351243038" duration="1048000" />
-      <workItem from="1474352608099" duration="18263000" />
+      <workItem from="1474352608099" duration="19256000" />
     </task>
     <task id="LOCAL-00001" summary="appjs">
       <created>1474182926240</created>
@@ -610,7 +599,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105056000" />
+    <option name="totallyTimeSpent" value="106049000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="780" extended-state="0" />
@@ -793,13 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/topic/src/app/topiclist/directives/topiclist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/topic/src/app/topiclist/directives/topicitem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -890,14 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/topic/src/app/topicdetail/directives/topicdetail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/topic/src/common/netService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -943,11 +917,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/topic/src/app/topicdetail/controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state relative-caret-position="240">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topic/src/app/topicdetail/directives/topicdetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topic/src/app/topiclist/directives/topiclist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
