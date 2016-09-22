@@ -1,8 +1,8 @@
 /**
  * Created by Lucien on 2016/9/16.
  */
-var gulp,concat,minifyCss,rename,uglify,runSequence,minifyHTML,sass,autoprefix,path,ngFilesort,ngAnnotate,
-    distDir,sassDir,jsDir,neededlibDir,htmlDir,libDir;
+var gulp,concat,minifyCss,rename,uglify,runSequence,minifyHTML,minifyIMAGE,sass,autoprefix,path,ngFilesort,ngAnnotate,
+    distDir,sassDir,jsDir,neededlibDir,htmlDir,libDir,imgDir;
 gulp = require('gulp');
 
 concat = require('gulp-concat');
@@ -16,6 +16,8 @@ uglify = require('gulp-uglify');
 runSequence = require('run-sequence');
 
 minifyHTML = require('gulp-minify-html');
+
+minifyIMAGE = require('gulp-imagemin');
 
 sass = require('gulp-sass');
 
@@ -40,6 +42,7 @@ htmlDir = 'topic/src/*.html';
 
 libDir = 'topic/src/lib/**/*.*';
 
+imgDir = 'topic/img/**/*.*';
 
 
 handleError = function (err) {
@@ -74,6 +77,10 @@ gulp.task('dist:lib.js', function () {
     })).pipe(gulp.dest(distDir+'js/'));
 });
 
+gulp.task('dist:img', function () {
+    return gulp.src(imgDir)
+        .pipe(gulp.dest(distDir+'/img'));
+});
 
 
 gulp.task('dist:html', function () {
@@ -90,6 +97,8 @@ gulp.task('watch', function () {
     gulp.watch(jsDir,['dist:js']);
 
      gulp.watch(htmlDir, ['dist:html']);
+
+    gulp.watch(imgDir,['dist:img']);
 });
 
 gulp.task('minHtml', function () {
@@ -104,8 +113,18 @@ gulp.task('minJs', function () {
     }).pipe(uglify()).pipe(gulp.dest(distDir));
 });
 
+gulp.task('minImg', function () {
+    return gulp.src('dist/img/**/*.*', {
+        base: 'dist/'
+    }).pipe(minifyIMAGE({
+        optimizationLevel: 5,
+        progressive: true,
+        interlaced: true
+    })).pipe(gulp.dest(distDir));
+});
+
 gulp.task('dist', function (cb) {
-    return runSequence('dist:sass', 'dist:lib.js', 'dist:js',  'dist:html', 'dist:lib', cb);
+    return runSequence('dist:sass', 'dist:lib.js','dist:img', 'dist:js',  'dist:html', 'dist:lib', cb);
 });
 
 gulp.task('default', function (cb) {

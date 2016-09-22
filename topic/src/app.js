@@ -6,7 +6,9 @@ var app = angular.module('app', ['ui.router', 'app.routes',
     'common.netService',
     'app.common.factory',
     'app.topiclist.controller',
-    'app.topicdetail.directives.topicdetail']);
+    'app.topicdetail.controller'
+
+]);
 
 app.run(function (netService, $rootScope) {
     return $rootScope.title = "话题列表";

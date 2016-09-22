@@ -9,7 +9,7 @@ angular.module('common.netService', [])
         getTopic: '/topic/get',
         searchTopic: '/topic/search',
         addTopic: '/topic/add',
-        detailTopic: '/topic/detail'
+        deleteTopic: '/topic/delete'
     })
     .service('netService', function ($http, apiUrl,config) {
     var $this, fn, url;
